@@ -9,7 +9,7 @@ export class RingBuffer<T extends TypedArray> {
     private bufferView: T;
 
     constructor(
-        private readonly buffer: SharedArrayBuffer,
+        private readonly buffer: ArrayBufferLike,
         private readonly typedArrayConstructor: TypedArrayConstructor,
     ) {
         // 8 bytes at start of buffer

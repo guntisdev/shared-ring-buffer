@@ -1,11 +1,22 @@
 {
   "name": "shared-ring-buffer",
   "version": "0.0.1",
-  "description": "",
-  "keywords": [],
+  "description": "Data structure for communicating between different Web Workers",
+  "keywords": [
+    "Web Workers",
+    "AudioWorklet",
+    "SharedArrayBuffer",
+    "Ring Buffer",
+    "Thread concurrency"
+  ],
   "author": {
     "name": "Guntis Smaukstelis",
     "email": "guntis.smaukstelis@gmail.com"
+  },
+  "homepage": "https://github.com/guntisdev/shared-ring-buffer#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guntisdev/shared-ring-buffer.git"
   },
   "license": "MIT",
   "type": "module",
